@@ -5,7 +5,7 @@ import { RouteProp } from '@react-navigation/native';
 import { RootStackParamList } from '../types/navigation';
 import { Colors, Spacing, Typography, BorderRadius, Shadow } from '../constants/theme';
 import { ConversationFeedback } from '../types/feedback';
-import { ScoreCard } from '../components/Scorecard';
+import { ScoreCard } from '../components/ScoreCard';
 import { InsightCard } from '../components/InsightCard';
 import { KeyMomentCard } from '../components/KeyMomentCard';
 import { Button } from '../components/Button';

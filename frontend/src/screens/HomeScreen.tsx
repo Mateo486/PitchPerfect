@@ -1,14 +1,10 @@
 import React from 'react';
-import { View, Text, StyleSheet, ScrollView, Image } from 'react-native';
+import { View, Text, StyleSheet, ScrollView } from 'react-native';
+import { StackNavigationProp } from '@react-navigation/stack';
 import { Button } from '../components/Button';
 import { Card } from '../components/Card';
 import { Colors, Spacing, Typography, BorderRadius } from '../constants/theme';
-import { StackNavigationProp } from '@react-navigation/stack';
-
-type RootStackParamList = {
-  Home: undefined;
-  ScenarioSelect: undefined;
-};
+import { RootStackParamList } from '../types/navigation';
 
 type HomeScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Home'>;
 
